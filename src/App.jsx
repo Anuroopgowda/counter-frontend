@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const API_BASE = 'http://localhost:3001'; // use your backend URL later on Render
+const API_BASE = 'https://counter-backend-9dyh.onrender.com'; // use your backend URL later on Render
 
 function App() {
   const [count, setCount] = useState(null);
